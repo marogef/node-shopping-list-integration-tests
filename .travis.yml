@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: H6NYcCGXfZR+hibZ5Ez7hS1NRhNe6C+CLEinG+J/WI6JDp0VbJOqD8bhk4KwjxUKZhJDNmn1Wb1lvHK7TBto2CprmvgsSfNFudO2+u0ythmhkXHwIlxVRxR5rnvzEKqdOsrf37YLWwrpeMYXJHKxyIJv5i4xx1rk3k6worC4LOfAWm/VRnCAtei14/cb4B7I4gJVahNAL97KHmjr0+cFAReDAxOpg9pFpnjaL8txAkCcbOtlQCW0ZkDavlPF7sMsUxz6Bl5q5SwGfN6vWCoEJuaRk57+As7xRizcDXp0jPVHrdv2qB1jZ5EyB0B5X954oQ/PUotdwnGxpmZb8olfjsSDvtq4dKXnqtGAibCldX2tdT8jUbojF2AiBKmTM0T7PKloZjBd9u255MmZzXPM72fXbmDSod5D8S1ffQn+ysbJCc07c0NHSlcSH7fkPLKqqFXYaMhEwvvEkkGhifsk5v+mpcBxbgbovmQIzhdkLIb4RRfKj609AZmu5USptsw3i1Y1cmnGYtYWhJYwXTEjxt5+n29b0FobsEPdIjxG1YFWKBtGCDSEQbtpZa9H698NUScq7/j9+KVdd6258xGavYJ3yTTmRSjFM9U52VvNcFWvNWiHJqgSN4qAOpl10/Fa9pssogO1UPM1H/+jfaShY5qDf5SHYmMUkDBjXrWhvmg=
+    app: limitless-inlet-62256
+  on:
+    repo: marogef/node-shopping-list-integration-tests
